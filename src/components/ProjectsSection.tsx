@@ -1,6 +1,5 @@
 import { CIcon } from '@coreui/icons-react'
 import { cibGithub } from '@coreui/icons'
-import { cilExternalLink } from '@coreui/icons'
 import {
   CButton,
   CCard,
@@ -16,24 +15,21 @@ const projects = [
     desc: 'Collaborative task tracking and planning dashboard for distributed teams.',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop',
     tags: ['React', 'Node.js', 'MongoDB'],
-    live: 'https://example.com',
-    repo: 'https://github.com',
+    repo: 'https://github.com/renugadevisdev',
   },
   {
     title: 'E-Commerce Storefront',
     desc: 'Fast storefront with cart, checkout flows, and responsive product grid.',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
     tags: ['TypeScript', 'Next.js', 'Stripe'],
-    live: 'https://example.com',
-    repo: 'https://github.com',
+    repo: 'https://github.com/renugadevisdev',
   },
   {
     title: 'Analytics Dashboard',
     desc: 'Real-time metrics and visualizations for product and business KPIs.',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
     tags: ['React', 'D3', 'REST API'],
-    live: 'https://example.com',
-    repo: 'https://github.com',
+    repo: 'https://github.com/renugadevisdev',
   },
 ]
 
@@ -87,18 +83,6 @@ export function ProjectsSection() {
                     ))}
                   </div>
                   <div className="d-flex flex-wrap gap-2">
-                    <CButton
-                      size="sm"
-                      variant="ghost"
-                      color="primary"
-                      className="d-inline-flex align-items-center gap-1 px-0"
-                      href={p.live}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <CIcon icon={cilExternalLink} className="text-primary" />
-                      Live Demo
-                    </CButton>
                     <CButton
                       size="sm"
                       variant="ghost"

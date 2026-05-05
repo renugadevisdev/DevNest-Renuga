@@ -55,7 +55,7 @@ export function HeroSection() {
                 size="sm"
                 variant="ghost"
                 className="p-0 rounded-circle"
-                href="https://github.com/renugadevisdev/DevNest-Renuga"
+                href="https://github.com/renugadevisdev"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
