@@ -86,10 +86,10 @@ export function PortfolioHeader() {
               color="primary"
               className="text-white fw-semibold"
               size="sm"
-              href="/public/Renuga_Devi_Frontend_Developer_Resume.pdf"
+              href="/Renuga_Devi_Resume.pdf"
               target="_blank"
               rel="noreferrer"
-              title="Renuga_Devi_Frontend_Developer_Resume.pdf"
+              title="Renuga_Devi_Resume.pdf"
             >
               Download CV
             </CButton>
