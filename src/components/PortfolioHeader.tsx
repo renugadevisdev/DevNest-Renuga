@@ -86,7 +86,7 @@ export function PortfolioHeader() {
               color="primary"
               className="text-white fw-semibold"
               size="sm"
-              href="/Renuga_Devi_Resume.pdf"
+              href="/public/Renuga_Dinesh_Resume.pdf"
               target="_blank"
               rel="noreferrer"
               title="Renuga_Devi_Resume.pdf"
