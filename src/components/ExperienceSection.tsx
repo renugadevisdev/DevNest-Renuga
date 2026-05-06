@@ -3,8 +3,8 @@ import { CCol, CContainer, CRow } from '@coreui/react'
 const items = [
   {
     title: 'Senior Frontend Developer',
-    company: 'Kasove Labs',
-    range: '2025 - Present',
+    company: 'Clanizon LLP & Kasove Labs',
+    range: '2026 - Present',
     bullets: [
       'Build and maintain design systems and reusable UI in React and TypeScript.',
       'Partner with design and API teams to deliver accessible, performant features.',
