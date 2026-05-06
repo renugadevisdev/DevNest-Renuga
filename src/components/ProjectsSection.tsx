@@ -22,6 +22,13 @@ type Project = {
 
 const featuredProjects: Project[] = [
   {
+    title: 'Project Tracking System',
+    desc: 'Task management system centred on KPI tracking, prioritisation, and team delivery visibility.',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+    tags: ['Tasks', 'KPIs', 'Dashboard'],
+    repo: 'https://github.com/renugadevisdev',
+  },
+  {
     title: 'E-Commerce Storefront',
     desc: 'Fast storefront with cart, checkout flows, and responsive product grid.',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
@@ -45,10 +52,10 @@ const moreProjects: Project[] = [
     tags: ['Forms', 'QA', 'Compliance'],
   },
   {
-    title: 'Project Tracking System',
-    desc: 'Task management system centred on KPI tracking, prioritisation, and team delivery visibility.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
-    tags: ['Tasks', 'KPIs', 'Dashboard'],
+    title: 'EST',
+    desc: 'Tracks shortages of electronic items and stock levels, with role-based access so teams see only what their role allows.',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop',
+    tags: ['Inventory', 'Electronics', 'RBAC'],
   },
   {
     title: 'Tools management',
