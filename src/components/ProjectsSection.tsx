@@ -22,6 +22,12 @@ type Project = {
 
 const featuredProjects: Project[] = [
   {
+    title: 'PMS',
+    desc: 'Project Monitoring Section for hourly production tracking — shifts, inventory, customers, manpower, line capacity, demand, delivery, defect products, and downtime.',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop',
+    tags: ['Production', 'Monitoring', 'Manufacturing'],
+  },
+  {
     title: 'Project Tracking System',
     desc: 'Task management system centred on KPI tracking, prioritisation, and team delivery visibility.',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
