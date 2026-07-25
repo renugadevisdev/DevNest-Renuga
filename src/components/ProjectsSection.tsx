@@ -23,7 +23,7 @@ type Project = {
 const featuredProjects: Project[] = [
   {
     title: 'PMS',
-    desc: 'Project Monitoring Section for hourly production tracking — shifts, inventory, customers, manpower, line capacity, demand, delivery, defect products, and downtime.',
+    desc: 'Product Monitoring Section for hourly production tracking — shifts, inventory, customers, manpower, line capacity, demand, delivery, defect products, and downtime.',
     image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop',
     tags: ['Production', 'Monitoring', 'Manufacturing'],
   },
@@ -42,15 +42,15 @@ const featuredProjects: Project[] = [
     live: 'https://dashboard.redpepperdigital.net/',
     repo: 'https://github.com/renugadevisdev',
   },
+]
+
+const moreProjects: Project[] = [
   {
     title: 'Radical',
     desc: 'Lighting contract workflows and order management — end-to-end handling for contracts and fulfilment.',
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop',
     tags: ['React', 'Operations', 'Orders'],
   },
-]
-
-const moreProjects: Project[] = [
   {
     title: 'Quality Global',
     desc: 'Quality check forms and structured inspections for consistent standards across teams and sites.',
