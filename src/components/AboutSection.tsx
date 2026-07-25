@@ -9,7 +9,7 @@ import { CAvatar, CCol, CContainer, CRow } from '@coreui/react'
 
 const details = [
   { icon: cilUser, label: 'Name', value: 'Renugadevi S' },
-  { icon: cilBriefcase, label: 'Experience', value: '4+ Years' },
+  { icon: cilBriefcase, label: 'Experience', value: '5+ Years' },
   { icon: cilEnvelopeOpen, label: 'Email', value: 'renugadevis.dev@gmail.com' },
   { icon: cilLocationPin, label: 'Location', value: 'Bangalore, India' },
 ]
@@ -43,7 +43,7 @@ export function AboutSection() {
               className="mb-4"
               style={{ color: 'var(--rd-muted)', lineHeight: 1.7 }}
             >
-              I&apos;m a passionate frontend developer with a focus on building
+              I&apos;m a passionate senior frontend developer with a focus on building
               clean interfaces and performant user experiences. I enjoy turning
               complex problems into simple, beautiful solutions and collaborating
               with teams to ship products users love.
