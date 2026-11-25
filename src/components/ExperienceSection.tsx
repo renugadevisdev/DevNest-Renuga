@@ -2,7 +2,7 @@ import { CCol, CContainer, CRow } from '@coreui/react'
 
 const items = [
   {
-    title: 'Senior Frontend Developer',
+    title: 'Full Stack Developer',
     company: 'Clanizon LLP & Kasove Labs',
     range: '2026 - Present',
     bullets: [

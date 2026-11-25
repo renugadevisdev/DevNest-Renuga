@@ -23,7 +23,7 @@ export function HeroSection() {
               className="h4 mb-4"
               style={{ color: 'var(--rd-accent)' }}
             >
-              Senior Frontend Developer
+              Full Stack Developer
             </p>
             <p
               className="lead mb-4"
